@@ -1,0 +1,2 @@
+source "$BR2_EXTERNAL_JETSON_TK1_PATH/package/k3s/Config.in"
+source "$BR2_EXTERNAL_JETSON_TK1_PATH/package/jetson-firmware/Config.in"

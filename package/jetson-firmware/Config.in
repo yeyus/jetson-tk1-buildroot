@@ -1,0 +1,23 @@
+config BR2_PACKAGE_JETSON_FIRMWARE
+    bool "jetson-firmware"
+    help
+      Gather firmware files for jetson tk1 board
+
+if BR2_PACKAGE_JETSON_FIRMWARE
+
+config BR2_PACKAGE_JETSON_FIRMWARE_XUSB
+    bool "XUSB"
+    help
+      This option will include the firmware for the USB3.0 controller
+
+config BR2_PACKAGE_JETSON_FIRMWARE_RTL816x
+    bool "RTL816x"
+    help
+      This option will include the firmware for the NIC in the Jetson TK1 board
+
+config BR2_PACKAGE_JETSON_FIRMWARE_NOUVEAU
+    bool "Nouveau"
+    help
+      This option will include firmware files to support GPU in Tegra K1 SOC
+
+endif 

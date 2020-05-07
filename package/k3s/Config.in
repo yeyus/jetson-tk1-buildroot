@@ -1,0 +1,4 @@
+config BR2_PACKAGE_K3S
+	bool "k3s"
+	help
+	  Installs k3s armhf binary
