@@ -8,8 +8,6 @@ JETSON_FIRMWARE_VERSION = 20200316
 JETSON_FIRMWARE_SITE = http://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
 JETSON_FIRMWARE_SITE_METHOD = git
 
-JETSON_FIRMWARE_DEPENDENCIES += linux
-
 # Jetson TK1 XUSB controller 
 ifeq ($(BR2_PACKAGE_JETSON_FIRMWARE_XUSB),y)
 JETSON_FIRMWARE_FILES += nvidia/tegra124/xusb.bin 

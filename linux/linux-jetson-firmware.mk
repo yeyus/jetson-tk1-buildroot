@@ -1,0 +1,1 @@
+LINUX_DEPENDENCIES += $(if $(BR2_PACKAGE_JETSON_FIRMWARE),jetson-firmware)
