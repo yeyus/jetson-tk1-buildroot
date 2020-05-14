@@ -1,4 +1,5 @@
 config BR2_PACKAGE_K3S
 	bool "k3s"
+	select BR2_PACKAGE_CA_CERTIFICATES
 	help
-	  Installs k3s armhf binary
+	  Installs k3s armhf binary. Depends on ca-certificates package.
