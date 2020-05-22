@@ -1,0 +1,2 @@
+/dev/root / auto rw 0 1
+/dev/mmcblk0p1 /media/mmc auto rw,exec 0 1
